@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 	<meta charset="utf-8">
 	<meta name="author" content="Kodinger">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -15,7 +13,7 @@
 			<div class="row justify-content-md-center h-100">
 				<div class="card-wrapper">
 					<div class="brand">
-						<img src="img/logo.jpg" alt="logo">
+						<img src="https://imgur.com/ij5gnOz.png" alt="logo">
 					</div>
 					<div class="card fat">
 						<div class="card-body">
@@ -23,7 +21,7 @@
 							<form method="POST" class="my-login-validation" novalidate="">
 								<div class="form-group">
 									<label for="email">E-Mail</label>
-									<input id="email" type="email" class="form-control" name="email" value="" required autofocus>
+									<input id="email" type="email" class="form-control" name="email" value="" required="" autofocus="">
 									<div class="invalid-feedback">
 										Email e inválido
 									</div>
@@ -35,7 +33,9 @@
 											Esqueçeu a senha?
 										</a>
 									</label>
-									<input id="password" type="password" class="form-control" name="password" required data-eye>
+									<div style="position:relative" id="eye-password-0"><input id="password" type="password" class="form-control" name="password" required="" data-eye="" style="padding-right: 60px;"><div class="invalid-feedback">
+								    	Password is required
+							    	</div><input type="hidden" id="passeye-0"><div class="btn btn-primary btn-sm" id="passeye-toggle-0" style="position: absolute; right: 10px; top: 7px; padding: 2px 7px; font-size: 12px; cursor: pointer;">Mostrar</div></div>
 								    <div class="invalid-feedback">
 								    	Password is required
 							    	</div>
@@ -44,7 +44,7 @@
 								<div class="form-group">
 									<div class="custom-checkbox custom-control">
 										<input type="checkbox" name="remember" id="remember" class="custom-control-input">
-										<label for="remember" class="custom-control-label">Remember Me</label>
+										<label for="remember" class="custom-control-label">Lembre-se de mim</label>
 									</div>
 								</div>
 
@@ -53,14 +53,12 @@
 										Login
 									</button>
 								</div>
-								<div class="mt-4 text-center">
-									Don't have an account? <a href="register.html">Create One</a>
-								</div>
+								
 							</form>
 						</div>
 					</div>
 					<div class="footer">
-						Copyright &copy; 2017 &mdash; Your Company 
+						Todos os direitos reservados. 
 					</div>
 				</div>
 			</div>
@@ -71,5 +69,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="js/my-login.js"></script>
-</body>
-</html>
+
+
+</body></html>
